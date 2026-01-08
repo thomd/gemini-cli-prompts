@@ -1,3 +1,4 @@
+description = "Create prompt template."
 prompt = """
 # Create Prompt Template
 
@@ -9,18 +10,18 @@ Please create a reusable prompt template for:
 
 ### 1. Template Metadata
 
-**Template Name**: Clear, descriptive name
+Template Name: Clear, descriptive name
 
-**Category**: Type of prompt (Technical, Creative, Analysis, etc.)
+Category: Type of prompt (Technical, Creative, Analysis, etc.)
 
-**Purpose**: What this prompt accomplishes
+Purpose: What this prompt accomplishes
 
-**Use Cases**: When to use this template
+Use Cases: When to use this template
 - Use case 1
 - Use case 2
 - Use case 3
 
-**Target Audience**: Who should use this
+Target Audience: Who should use this
 - Skill level
 - Role
 - Context
@@ -29,14 +30,14 @@ Please create a reusable prompt template for:
 
 Define all customizable parts:
 
-**Required Variables:**
+Required Variables:
 - `{{variable1}}`: Description of what goes here
 - `{{variable2}}`: Description of what goes here
 
-**Optional Variables:**
+Optional Variables:
 - `{{optionalVar}}`: Description (defaults to: X)
 
-**Example Values:**
+Example Values:
 ```
 {{variable1}}: "Example input here"
 {{variable2}}: "Another example"
@@ -117,27 +118,27 @@ Expected output:
 
 #### How to Use This Template
 
-**Step 1: Prepare Your Input**
+Step 1: Prepare Your Input
 Gather the information needed for each variable:
 - {{variable1}}: [What to prepare]
 - {{variable2}}: [What to prepare]
 
-**Step 2: Fill in Variables**
+Step 2: Fill in Variables
 Replace template variables with your specific content:
 ```
 Original: {{variable1}}
 Your input: [Your actual content]
 ```
 
-**Step 3: Review and Adjust**
+Step 3: Review and Adjust
 - Check that all variables are filled
 - Adjust requirements if needed
 - Add context-specific constraints
 
-**Step 4: Execute**
+Step 4: Execute
 Submit the completed prompt to the AI model.
 
-**Step 5: Iterate**
+Step 5: Iterate
 Based on results, refine the prompt:
 - Add more specific requirements
 - Clarify ambiguous instructions
@@ -147,18 +148,18 @@ Based on results, refine the prompt:
 
 #### Example 1: Basic Use Case
 
-**Input:**
+Input:
 ```
 {{variable1}}: [Example input 1]
 {{variable2}}: [Example input 2]
 ```
 
-**Completed Prompt:**
+Completed Prompt:
 ```
 [Full prompt with variables filled in]
 ```
 
-**Expected Output:**
+Expected Output:
 ```
 [What the AI should produce]
 ```
@@ -167,18 +168,18 @@ Based on results, refine the prompt:
 
 #### Example 2: Advanced Use Case
 
-**Input:**
+Input:
 ```
 {{variable1}}: [Complex input]
 {{variable2}}: [Additional context]
 ```
 
-**Completed Prompt:**
+Completed Prompt:
 ```
 [Full prompt with variables filled in]
 ```
 
-**Expected Output:**
+Expected Output:
 ```
 [More complex expected output]
 ```
@@ -186,41 +187,41 @@ Based on results, refine the prompt:
 ### 7. Variations and Modifications
 
 #### Variation 1: [Purpose]
-**Modification:**
+Modification:
 - Change [element] to [new value]
 - Add [new requirement]
 - Remove [element]
 
-**When to Use:**
+When to Use:
 - Scenario 1
 - Scenario 2
 
 ---
 
 #### Variation 2: [Purpose]
-**Modification:**
+Modification:
 - Adjust [element]
 - Include [addition]
 
-**When to Use:**
+When to Use:
 - Scenario 1
 - Scenario 2
 
 ### 8. Common Mistakes to Avoid
 
-**Mistake 1: Being Too Vague**
+Mistake 1: Being Too Vague
 - ❌ Bad: "Analyze this code"
 - ✅ Good: "Perform security analysis focusing on [specific aspects]"
 
-**Mistake 2: Missing Context**
+Mistake 2: Missing Context
 - ❌ Bad: Jumping straight to task without background
 - ✅ Good: Providing role, objective, and context first
 
-**Mistake 3: Unclear Output Format**
+Mistake 3: Unclear Output Format
 - ❌ Bad: No structure specified
 - ✅ Good: Clear sections and formatting requirements
 
-**Mistake 4: Too Many Requirements**
+Mistake 4: Too Many Requirements
 - ❌ Bad: 20+ bullet points of requirements
 - ✅ Good: 5-7 key requirements, grouped logically
 
@@ -256,10 +257,10 @@ Based on results, refine the prompt:
 - [ ] Examples are helpful
 
 #### Test Cases:
-1. **Simple case**: [Test with basic input]
-2. **Complex case**: [Test with detailed input]
-3. **Edge case**: [Test with unusual input]
-4. **Error case**: [Test with invalid input]
+1. Simple case: [Test with basic input]
+2. Complex case: [Test with detailed input]
+3. Edge case: [Test with unusual input]
+4. Error case: [Test with invalid input]
 
 ### 11. Template Categories
 
@@ -402,26 +403,26 @@ templates/
 
 ### 15. Quality Checklist for Templates
 
-**Structure:**
+Structure:
 - [ ] Clear role/context
 - [ ] Explicit objective
 - [ ] Well-defined variables
 - [ ] Structured output format
 - [ ] Examples provided
 
-**Content:**
+Content:
 - [ ] Comprehensive requirements
 - [ ] Appropriate constraints
 - [ ] Quality guidelines
 - [ ] Edge cases covered
 
-**Usability:**
+Usability:
 - [ ] Easy to understand
 - [ ] Easy to customize
 - [ ] Clear instructions
 - [ ] Good documentation
 
-**Effectiveness:**
+Effectiveness:
 - [ ] Produces consistent results
 - [ ] Works across use cases
 - [ ] Handles variations well
