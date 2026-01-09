@@ -1,8 +1,8 @@
-# Gemini CLI Custom Prompts
+# Gemini CLI Agentic Primitives
 
-Custom prompts for web development and devops engineering to be used in [Gemini CLI](https://geminicli.com/).
+Some agentic primitives like **instructions**, **prompts**, **agents** or **skills** for web development and devops engineering to be used in [Gemini CLI](https://geminicli.com/).
 
-## Prompts
+## Custom Prompts
 
 - `/code:architecture` Design a system architecture
 - `/code:changelog` Add a new entry to the project's CHANGELOG.md file
@@ -14,5 +14,5 @@ Custom prompts for web development and devops engineering to be used in [Gemini 
 ## Install
 
 ```
-gemini extensions install https://github.com/thomd/gemini-cli-prompts
+gemini extensions install https://github.com/thomd/gemini-cli-agentic-primitives
 ```

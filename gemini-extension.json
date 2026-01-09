@@ -1,5 +1,5 @@
 {
-  "name": "gemini-cli-prompts",
+  "name": "gemini-cli-agentic-primitives",
   "version": "1.0.0",
   "contextFileName": "GEMINI.md"
 }
